@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form validation</title>
+</head>
+<body>
+    <script>
+        function data(){
+var a=document.getElementById(n1).innerHTML;
+var b=document.getElementById(n2).innerHTML;
+
+if(a == " ")
+{
+    alert("all fields are mendatory");
+    return false; 
+}
+else document.write(formsubmitted)
+
+if(b == " ")
+{
+    alert("all fields are mendatory");
+    return false; 
+}
+else document.write(formsubmitted)
+
+        }
+
+    </script>
+
+<form onsubmit=" return data()"   action="https://github.com/">
+   <center>  name : <input type="text" id="n1"> <br>
+    <br>
+    age : <input type="text"id="n2" >
+    <br>  <br>  
+    <input type="submit">
+   </center>
+</form>
+
+</body>
+</html>
